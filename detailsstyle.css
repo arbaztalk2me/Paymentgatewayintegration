@@ -1,0 +1,86 @@
+body{
+    background: url(bg3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div1{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 580px;
+    width: 800px;
+    background:linear-gradient(to right,rgb(165, 214, 218),white);
+    border-radius: 18px;
+} 
+.div1 h4{
+    margin-left: 90px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.btndesign{
+    width: 40%;
+    display: flex;
+    justify-content:space-around;
+} 
+.formdesign{
+    margin-left: 39%;
+    margin-top: 5%;
+}
+#amount{
+    padding: 5px;
+    margin-bottom:4px;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background:none;
+}
+#fname{
+    padding: 5px;
+    margin-bottom:4px;
+    border-left:4px;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background:none;
+}
+#lname{
+    padding: 5px;
+    margin-bottom:4px;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background:none;
+}
+#num{
+    padding: 5px;
+    margin-bottom:4px;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background:none;
+}
+#mail{
+    padding: 5px;
+    margin-bottom:4px;
+    border-left:none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background:none;
+}
+#design{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+}
+#submit{
+    margin-left: -1rem;
+    margin-top: -4rem;
+    width: 14rem;
+    font-size: 1.2rem;
+    background-color: rgb(253, 253, 253);
+    color: blanchedalmond;
+    padding: 10px;
+} 

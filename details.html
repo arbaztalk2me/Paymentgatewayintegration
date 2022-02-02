@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="detailsstyle.css">
+</head>
+<body>
+    <div class="div1">
+        <h4>Please fill this up!</h4>
+        <div class="formdesign" id="smart-button-container">
+            <form action="">
+                <label for="fname" id="design">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter Your First Name" required value=""><br>
+                <p id="fnameerror" style="visibility: hidden; color:red; text-align: center;">Please enter First Name</p>
+
+                <label for="lname" id="design">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" required value=""><br>
+                <p id="lnameerror" style="visibility: hidden; color:red; text-align: center;">Please enter Last Name</p>
+
+                <label for="mail" id="design">Email</label><br>
+                <input type="email" name="" id="mail" placeholder="Enter Your Email" required value=""><br>
+                <p id="mailerror" style="visibility: hidden; color:red; text-align: center;">Please enter email</p>
+
+                <div><label for="amount" id="design">Amount </label><br><input name="amountInput" type="number" id="amount" value="" ><span> USD</span>
+                </div>
+                <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+                <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" >
+                </div>
+                <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+            </form>
+            <!-- <div style="display: flex; justify-content: center; margin-bottom: 2rem;" id="paypal-button-container">
+            </div> -->
+            <div class="btndesign" id="submit">
+               </div>
+        </div> 
+        </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=AVCsGN2iL0JJFuo1Vu5TNVMJPCbCRQG1iIjVxvuvNFmRJnxyKg9xpVsx_ZcUrdZU-fDy28LJD1GSlS5v&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script src="index.js"></script>
+  
+</body>
+</html>
