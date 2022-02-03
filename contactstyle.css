@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    /* background: linear-gradient(to right,#999ac6,#b8bacf,#d2d5dd,#e8ebe4);  */
+     background-image: url(pic6.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100vw;
+}
+#abc{
+        position: absolute;
+        left: 23%;
+        top: 20%;
+        width: 50%;
+        height: 74%;
+        background: rgba(0,0,0,0.75);
+        box-shadow: 0rem 0rem 3rem black;
+}
+nav{
+    width: 100%;
+    height:50px;
+    background-color: #0005;
+     line-height: 50px
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:#ffffff;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+.navtitle{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    position: fixed;
+    left: 41%;
+    border: 0;
+    background: #e1e1e4;
+    color: rgb(14, 13, 13);
+    padding: 10px 60px;
+    border-radius: 15px;
+    cursor: pointer;
+  }  
+.transbox {
+      margin: 30px;
+      width: 400px;
+      margin: auto;
+      background: black;
+      /* opacity: 0.6; */
+    }
+.transbox p {
+      margin: 5%;
+      /* font-weight: bold; */
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-family: ThreeDDarkShadow;
+      font-size: 22px;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    border-top: 0;
+    border-bottom: 0.3px solid rgb(179, 171, 171);
+    border-left:0;
+    border-right: 0;
+    background: none;
+    padding: 10px 15px;
+    outline: none;
+    color: #ddd;
+  }
